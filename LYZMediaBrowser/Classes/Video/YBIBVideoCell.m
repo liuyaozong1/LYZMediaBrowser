@@ -67,7 +67,9 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    self.videoView.frame = self.bounds;
+    if (self.videoView.bounds.size.height == 0) {
+        self.videoView.frame = self.bounds;
+    }
 }
 
 - (void)initValue {

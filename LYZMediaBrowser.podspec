@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYZMediaBrowser'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'iOS image browser / iOS 图片浏览器'
 
 # This description is used to generate tags and improve search results.
@@ -42,6 +42,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'YYImage'
+   s.dependency 'LYZYYImage'
    s.dependency 'SDWebImage', '>= 5.0.0'
 end
