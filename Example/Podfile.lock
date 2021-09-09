@@ -1,15 +1,30 @@
 PODS:
-  - LYZMediaBrowser (0.1.0)
+  - LYZMediaBrowser (0.1.0):
+    - SDWebImage (>= 5.0.0)
+    - YYImage
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
 
 DEPENDENCIES:
   - LYZMediaBrowser (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - YYImage
 
 EXTERNAL SOURCES:
   LYZMediaBrowser:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LYZMediaBrowser: 6362397baceb5e09cc65cf5460230a5a1a717a8b
+  LYZMediaBrowser: 82ada4f18be80dc73feac3fba6d8914632922f1b
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
 PODFILE CHECKSUM: ab6e55fdf8025dd4f8e829df4de1bcc5721941fe
 

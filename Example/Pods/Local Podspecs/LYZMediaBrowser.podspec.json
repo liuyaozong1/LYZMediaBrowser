@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "LYZMediaBrowser/Classes/**/*"
+  "source_files": "LYZMediaBrowser/Classes/**/*",
+  "dependencies": {
+    "YYImage": [
+
+    ],
+    "SDWebImage": [
+      ">= 5.0.0"
+    ]
+  }
 }

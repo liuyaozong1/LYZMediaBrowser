@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYZMediaBrowser'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LYZMediaBrowser.'
+  s.version          = '1.0.0'
+  s.summary          = 'iOS image browser / iOS 图片浏览器'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,23 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        iOS 图片浏览器，功能强大，易于拓展，极致的性能优化和严格的内存控制让其运行更加的流畅和稳健。
                        DESC
 
-  s.homepage         = 'https://github.com/648731281@qq.com/LYZMediaBrowser'
+  s.homepage         = 'https://github.com/liuyaozong1/LYZMediaBrowser'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '648731281@qq.com' => '648731281@qq.com' }
-  s.source           = { :git => 'https://github.com/648731281@qq.com/LYZMediaBrowser.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/liuyaozong1/LYZMediaBrowser.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.requires_arc = true
+  
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'LYZMediaBrowser/Classes/**/*'
+  s.source_files = 'LYZMediaBrowser/Classes/YBImageBrowser/**/*.{h,m}','LYZMediaBrowser/Classes/Video/*.{h,m}'
+  
+  s.resources    = 'LYZMediaBrowser/Classes/Video/YBImageBrowserVideo.bundle','LYZMediaBrowser/Classes/YBImageBrowser/YBImageBrowser.bundle'
+  s.exclude_files = 'LYZMediaBrowser/Classes/YBImageBrowser/WebImageMediator/YBIBDefaultWebImageMediator.{h,m}'
   
   # s.resource_bundles = {
   #   'LYZMediaBrowser' => ['LYZMediaBrowser/Assets/*.png']
@@ -38,5 +42,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'YYImage'
+   s.dependency 'SDWebImage', '>= 5.0.0'
 end
