@@ -1,0 +1,6 @@
+framework module LYZMediaBrowser {
+  umbrella header "LYZMediaBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}
