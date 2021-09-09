@@ -149,6 +149,10 @@
 #pragma mark - public
 
 - (void)show {
+    if ([UIApplication sharedApplication].delegate.window == nil) {
+        NSLog(@"必须在UIApplication 创建 window");
+        return;
+    }
     [self showToView:[UIApplication sharedApplication].keyWindow];
 }
 

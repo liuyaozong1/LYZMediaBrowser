@@ -24,6 +24,29 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7E9A6E4759A94296F1564F1B /* Pods_LYZMediaBrowser_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1B4346845B3E0F17DB4486 /* Pods_LYZMediaBrowser_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B14782DA26E9DD3100145519 /* TestDController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14782B226E9DD3100145519 /* TestDController.m */; };
+		B14782DB26E9DD3100145519 /* localBigImage0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B14782B426E9DD3100145519 /* localBigImage0.jpeg */; };
+		B14782DC26E9DD3100145519 /* localVideo0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B14782B526E9DD3100145519 /* localVideo0.mp4 */; };
+		B14782DD26E9DD3100145519 /* localImage1.gif in Resources */ = {isa = PBXBuildFile; fileRef = B14782B626E9DD3100145519 /* localImage1.gif */; };
+		B14782DE26E9DD3100145519 /* BaseFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B14782B726E9DD3100145519 /* BaseFileManager.m */; };
+		B14782DF26E9DD3100145519 /* localImage0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B14782B826E9DD3100145519 /* localImage0.jpg */; };
+		B14782E026E9DD3100145519 /* ImageURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = B14782B926E9DD3100145519 /* ImageURLs.plist */; };
+		B14782E126E9DD3100145519 /* localLongImage0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B14782BB26E9DD3100145519 /* localLongImage0.jpeg */; };
+		B14782E226E9DD3100145519 /* TestEController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14782BD26E9DD3100145519 /* TestEController.m */; };
+		B14782E326E9DD3100145519 /* TestImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B14782BE26E9DD3100145519 /* TestImageBrowser.m */; };
+		B14782E426E9DD3100145519 /* TestAController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14782C326E9DD3100145519 /* TestAController.m */; };
+		B14782E526E9DD3100145519 /* TestCController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14782C726E9DD3100145519 /* TestCController.m */; };
+		B14782E626E9DD3100145519 /* TestCustomData.m in Sources */ = {isa = PBXBuildFile; fileRef = B14782C826E9DD3100145519 /* TestCustomData.m */; };
+		B14782E726E9DD3100145519 /* TestCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B14782C926E9DD3100145519 /* TestCustomCell.xib */; };
+		B14782E826E9DD3100145519 /* TestCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B14782CA26E9DD3100145519 /* TestCustomCell.m */; };
+		B14782E926E9DD3100145519 /* TestFController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14782CD26E9DD3100145519 /* TestFController.m */; };
+		B14782EA26E9DD3100145519 /* TestToolViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B14782D226E9DD3100145519 /* TestToolViewHandler.m */; };
+		B14782EB26E9DD3100145519 /* TestBController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14782D326E9DD3100145519 /* TestBController.m */; };
+		B14782EC26E9DD3100145519 /* BaseListController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14782D526E9DD3100145519 /* BaseListController.m */; };
+		B14782ED26E9DD3100145519 /* BaseListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B14782D726E9DD3100145519 /* BaseListCell.xib */; };
+		B14782EE26E9DD3100145519 /* BaseListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B14782D826E9DD3100145519 /* BaseListCell.m */; };
+		B14782F326E9DD3A00145519 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14782EF26E9DD3A00145519 /* MainController.m */; };
+		B14782F426E9DD3A00145519 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14782F226E9DD3A00145519 /* MainNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +86,44 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9622571D75F9D1609FE5ACB3 /* Pods-LYZMediaBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYZMediaBrowser_Example.release.xcconfig"; path = "Target Support Files/Pods-LYZMediaBrowser_Example/Pods-LYZMediaBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9EA97B80E32D6B742D031DFD /* Pods-LYZMediaBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYZMediaBrowser_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LYZMediaBrowser_Tests/Pods-LYZMediaBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B14782B126E9DD3100145519 /* TestDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDController.h; sourceTree = "<group>"; };
+		B14782B226E9DD3100145519 /* TestDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDController.m; sourceTree = "<group>"; };
+		B14782B426E9DD3100145519 /* localBigImage0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = localBigImage0.jpeg; sourceTree = "<group>"; };
+		B14782B526E9DD3100145519 /* localVideo0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = localVideo0.mp4; sourceTree = "<group>"; };
+		B14782B626E9DD3100145519 /* localImage1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = localImage1.gif; sourceTree = "<group>"; };
+		B14782B726E9DD3100145519 /* BaseFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseFileManager.m; sourceTree = "<group>"; };
+		B14782B826E9DD3100145519 /* localImage0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = localImage0.jpg; sourceTree = "<group>"; };
+		B14782B926E9DD3100145519 /* ImageURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ImageURLs.plist; sourceTree = "<group>"; };
+		B14782BA26E9DD3100145519 /* BaseFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFileManager.h; sourceTree = "<group>"; };
+		B14782BB26E9DD3100145519 /* localLongImage0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = localLongImage0.jpeg; sourceTree = "<group>"; };
+		B14782BD26E9DD3100145519 /* TestEController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestEController.m; sourceTree = "<group>"; };
+		B14782BE26E9DD3100145519 /* TestImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestImageBrowser.m; sourceTree = "<group>"; };
+		B14782BF26E9DD3100145519 /* TestEController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestEController.h; sourceTree = "<group>"; };
+		B14782C026E9DD3100145519 /* TestImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestImageBrowser.h; sourceTree = "<group>"; };
+		B14782C226E9DD3100145519 /* TestAController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAController.h; sourceTree = "<group>"; };
+		B14782C326E9DD3100145519 /* TestAController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAController.m; sourceTree = "<group>"; };
+		B14782C526E9DD3100145519 /* TestCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCustomCell.h; sourceTree = "<group>"; };
+		B14782C626E9DD3100145519 /* TestCustomData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCustomData.h; sourceTree = "<group>"; };
+		B14782C726E9DD3100145519 /* TestCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCController.m; sourceTree = "<group>"; };
+		B14782C826E9DD3100145519 /* TestCustomData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCustomData.m; sourceTree = "<group>"; };
+		B14782C926E9DD3100145519 /* TestCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCustomCell.xib; sourceTree = "<group>"; };
+		B14782CA26E9DD3100145519 /* TestCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCustomCell.m; sourceTree = "<group>"; };
+		B14782CB26E9DD3100145519 /* TestCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCController.h; sourceTree = "<group>"; };
+		B14782CD26E9DD3100145519 /* TestFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFController.m; sourceTree = "<group>"; };
+		B14782CE26E9DD3100145519 /* TestFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFController.h; sourceTree = "<group>"; };
+		B14782D026E9DD3100145519 /* TestToolViewHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestToolViewHandler.h; sourceTree = "<group>"; };
+		B14782D126E9DD3100145519 /* TestBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBController.h; sourceTree = "<group>"; };
+		B14782D226E9DD3100145519 /* TestToolViewHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestToolViewHandler.m; sourceTree = "<group>"; };
+		B14782D326E9DD3100145519 /* TestBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBController.m; sourceTree = "<group>"; };
+		B14782D526E9DD3100145519 /* BaseListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseListController.m; sourceTree = "<group>"; };
+		B14782D626E9DD3100145519 /* BaseListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseListCell.h; sourceTree = "<group>"; };
+		B14782D726E9DD3100145519 /* BaseListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseListCell.xib; sourceTree = "<group>"; };
+		B14782D826E9DD3100145519 /* BaseListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseListCell.m; sourceTree = "<group>"; };
+		B14782D926E9DD3100145519 /* BaseListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseListController.h; sourceTree = "<group>"; };
+		B14782EF26E9DD3A00145519 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		B14782F026E9DD3A00145519 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		B14782F126E9DD3A00145519 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		B14782F226E9DD3A00145519 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
 		BF1B4346845B3E0F17DB4486 /* Pods_LYZMediaBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYZMediaBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0693BBA05421F64984504E /* LYZMediaBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYZMediaBrowser.podspec; path = ../LYZMediaBrowser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D3CC0EBB8E3C513DAAD10D45 /* Pods-LYZMediaBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYZMediaBrowser_Example.debug.xcconfig"; path = "Target Support Files/Pods-LYZMediaBrowser_Example/Pods-LYZMediaBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,8 +196,13 @@
 				6003F59C195388D20070C39A /* LYZAppDelegate.h */,
 				6003F59D195388D20070C39A /* LYZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				B14782F126E9DD3A00145519 /* MainController.h */,
+				B14782EF26E9DD3A00145519 /* MainController.m */,
+				B14782F026E9DD3A00145519 /* MainNavigationController.h */,
+				B14782F226E9DD3A00145519 /* MainNavigationController.m */,
 				6003F5A5195388D20070C39A /* LYZViewController.h */,
 				6003F5A6195388D20070C39A /* LYZViewController.m */,
+				B14782AF26E9DD3100145519 /* Example */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -194,6 +260,111 @@
 				055B1E2E14CCE0F1A486EFC3 /* Pods-LYZMediaBrowser_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B14782AF26E9DD3100145519 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				B14782B026E9DD3100145519 /* 图片显示预处理（例添加水印） */,
+				B14782B326E9DD3100145519 /* File */,
+				B14782BC26E9DD3100145519 /* 添加到控制器使用（以相册为例） */,
+				B14782C126E9DD3100145519 /* 展示图片+视频 */,
+				B14782C426E9DD3100145519 /* 自定义 Cell */,
+				B14782CC26E9DD3100145519 /* 用代理配置数据源（以相册为例） */,
+				B14782CF26E9DD3100145519 /* 自定义工具视图（例查看原图） */,
+				B14782D426E9DD3100145519 /* Base */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		B14782B026E9DD3100145519 /* 图片显示预处理（例添加水印） */ = {
+			isa = PBXGroup;
+			children = (
+				B14782B126E9DD3100145519 /* TestDController.h */,
+				B14782B226E9DD3100145519 /* TestDController.m */,
+			);
+			path = "图片显示预处理（例添加水印）";
+			sourceTree = "<group>";
+		};
+		B14782B326E9DD3100145519 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				B14782B426E9DD3100145519 /* localBigImage0.jpeg */,
+				B14782B526E9DD3100145519 /* localVideo0.mp4 */,
+				B14782B626E9DD3100145519 /* localImage1.gif */,
+				B14782B726E9DD3100145519 /* BaseFileManager.m */,
+				B14782B826E9DD3100145519 /* localImage0.jpg */,
+				B14782B926E9DD3100145519 /* ImageURLs.plist */,
+				B14782BA26E9DD3100145519 /* BaseFileManager.h */,
+				B14782BB26E9DD3100145519 /* localLongImage0.jpeg */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		B14782BC26E9DD3100145519 /* 添加到控制器使用（以相册为例） */ = {
+			isa = PBXGroup;
+			children = (
+				B14782BD26E9DD3100145519 /* TestEController.m */,
+				B14782BE26E9DD3100145519 /* TestImageBrowser.m */,
+				B14782BF26E9DD3100145519 /* TestEController.h */,
+				B14782C026E9DD3100145519 /* TestImageBrowser.h */,
+			);
+			path = "添加到控制器使用（以相册为例）";
+			sourceTree = "<group>";
+		};
+		B14782C126E9DD3100145519 /* 展示图片+视频 */ = {
+			isa = PBXGroup;
+			children = (
+				B14782C226E9DD3100145519 /* TestAController.h */,
+				B14782C326E9DD3100145519 /* TestAController.m */,
+			);
+			path = "展示图片+视频";
+			sourceTree = "<group>";
+		};
+		B14782C426E9DD3100145519 /* 自定义 Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B14782C526E9DD3100145519 /* TestCustomCell.h */,
+				B14782C626E9DD3100145519 /* TestCustomData.h */,
+				B14782C726E9DD3100145519 /* TestCController.m */,
+				B14782C826E9DD3100145519 /* TestCustomData.m */,
+				B14782C926E9DD3100145519 /* TestCustomCell.xib */,
+				B14782CA26E9DD3100145519 /* TestCustomCell.m */,
+				B14782CB26E9DD3100145519 /* TestCController.h */,
+			);
+			path = "自定义 Cell";
+			sourceTree = "<group>";
+		};
+		B14782CC26E9DD3100145519 /* 用代理配置数据源（以相册为例） */ = {
+			isa = PBXGroup;
+			children = (
+				B14782CD26E9DD3100145519 /* TestFController.m */,
+				B14782CE26E9DD3100145519 /* TestFController.h */,
+			);
+			path = "用代理配置数据源（以相册为例）";
+			sourceTree = "<group>";
+		};
+		B14782CF26E9DD3100145519 /* 自定义工具视图（例查看原图） */ = {
+			isa = PBXGroup;
+			children = (
+				B14782D026E9DD3100145519 /* TestToolViewHandler.h */,
+				B14782D126E9DD3100145519 /* TestBController.h */,
+				B14782D226E9DD3100145519 /* TestToolViewHandler.m */,
+				B14782D326E9DD3100145519 /* TestBController.m */,
+			);
+			path = "自定义工具视图（例查看原图）";
+			sourceTree = "<group>";
+		};
+		B14782D426E9DD3100145519 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B14782D526E9DD3100145519 /* BaseListController.m */,
+				B14782D626E9DD3100145519 /* BaseListCell.h */,
+				B14782D726E9DD3100145519 /* BaseListCell.xib */,
+				B14782D826E9DD3100145519 /* BaseListCell.m */,
+				B14782D926E9DD3100145519 /* BaseListController.h */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,8 +448,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14782ED26E9DD3100145519 /* BaseListCell.xib in Resources */,
+				B14782DC26E9DD3100145519 /* localVideo0.mp4 in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				B14782DD26E9DD3100145519 /* localImage1.gif in Resources */,
+				B14782E026E9DD3100145519 /* ImageURLs.plist in Resources */,
+				B14782E126E9DD3100145519 /* localLongImage0.jpeg in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				B14782DF26E9DD3100145519 /* localImage0.jpg in Resources */,
+				B14782DB26E9DD3100145519 /* localBigImage0.jpeg in Resources */,
+				B14782E726E9DD3100145519 /* TestCustomCell.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -368,8 +547,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14782EE26E9DD3100145519 /* BaseListCell.m in Sources */,
+				B14782EB26E9DD3100145519 /* TestBController.m in Sources */,
+				B14782E526E9DD3100145519 /* TestCController.m in Sources */,
+				B14782DA26E9DD3100145519 /* TestDController.m in Sources */,
+				B14782E426E9DD3100145519 /* TestAController.m in Sources */,
 				6003F59E195388D20070C39A /* LYZAppDelegate.m in Sources */,
+				B14782F326E9DD3A00145519 /* MainController.m in Sources */,
+				B14782E826E9DD3100145519 /* TestCustomCell.m in Sources */,
+				B14782E626E9DD3100145519 /* TestCustomData.m in Sources */,
+				B14782EC26E9DD3100145519 /* BaseListController.m in Sources */,
 				6003F5A7195388D20070C39A /* LYZViewController.m in Sources */,
+				B14782E326E9DD3100145519 /* TestImageBrowser.m in Sources */,
+				B14782EA26E9DD3100145519 /* TestToolViewHandler.m in Sources */,
+				B14782E226E9DD3100145519 /* TestEController.m in Sources */,
+				B14782F426E9DD3A00145519 /* MainNavigationController.m in Sources */,
+				B14782DE26E9DD3100145519 /* BaseFileManager.m in Sources */,
+				B14782E926E9DD3100145519 /* TestFController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

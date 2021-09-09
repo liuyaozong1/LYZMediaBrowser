@@ -7,7 +7,7 @@
 //
 
 #import "LYZViewController.h"
-
+#import <YBImageBrowser.h>
 @interface LYZViewController ()
 
 @end
@@ -18,6 +18,20 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor redColor];
+    
+  
+    
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    YBIBImageData * data = [[YBIBImageData alloc] init];
+    data.imageName = @"PR-Pic-V1";
+    
+    YBImageBrowser *temp = [YBImageBrowser new];
+    temp.dataSourceArray = @[data];
+    [temp show];
 }
 
 - (void)didReceiveMemoryWarning

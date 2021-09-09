@@ -19,15 +19,6 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": [
-    "LYZMediaBrowser/Classes/YBImageBrowser/**/*.{h,m}",
-    "LYZMediaBrowser/Classes/Video/*.{h,m}"
-  ],
-  "resources": [
-    "LYZMediaBrowser/Classes/Video/YBImageBrowserVideo.bundle",
-    "LYZMediaBrowser/Classes/YBImageBrowser/YBImageBrowser.bundle"
-  ],
-  "exclude_files": "LYZMediaBrowser/Classes/YBImageBrowser/WebImageMediator/YBIBDefaultWebImageMediator.{h,m}",
   "dependencies": {
     "YYImage": [
 
@@ -35,5 +26,52 @@
     "SDWebImage": [
       ">= 5.0.0"
     ]
-  }
+  },
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "LYZMediaBrowser/Classes/YBImageBrowser/**/*.{h,m}",
+      "resources": "LYZMediaBrowser/Classes/Video/YBImageBrowserVideo.bundle",
+      "dependencies": {
+        "YYImage": [
+
+        ],
+        "SDWebImage": [
+          ">= 5.0.0"
+        ]
+      }
+    },
+    {
+      "name": "NOSD",
+      "source_files": "LYZMediaBrowser/Classes/YBImageBrowser/**/*.{h,m}",
+      "exclude_files": "LYZMediaBrowser/Classes/YBImageBrowser/WebImageMediator/YBIBDefaultWebImageMediator.{h,m}",
+      "resources": "YZMediaBrowser/Classes/YBImageBrowser/YBImageBrowser.bundle",
+      "dependencies": {
+        "YYImage": [
+
+        ]
+      }
+    },
+    {
+      "name": "Video",
+      "source_files": "LYZMediaBrowser/Classes/Video/*.{h,m}",
+      "resources": "LYZMediaBrowser/Classes/Video/YBImageBrowserVideo.bundle",
+      "dependencies": {
+        "LYZMediaBrowser/Classes/YBImageBrowser/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "VideoNOSD",
+      "source_files": "LYZMediaBrowser/Classes/Video/*.{h,m}",
+      "resources": "LYZMediaBrowser/Classes/Video/YBImageBrowserVideo.bundle",
+      "dependencies": {
+        "LYZMediaBrowser/Classes/YBImageBrowser/NOSD": [
+
+        ]
+      }
+    }
+  ]
 }

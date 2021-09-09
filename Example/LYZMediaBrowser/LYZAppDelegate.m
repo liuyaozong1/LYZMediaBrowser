@@ -7,11 +7,20 @@
 //
 
 #import "LYZAppDelegate.h"
-
+#import "MainController.h"
+#import "MainNavigationController.h"
 @implementation LYZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    MainController *vc = [MainController new];
+    
+    MainNavigationController *nvc = [[MainNavigationController alloc] initWithRootViewController:vc];
+    nvc.navigationBar.translucent = NO;
+
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    _window.rootViewController = nvc;
+    [_window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }

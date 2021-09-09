@@ -26,6 +26,7 @@
 #import "YBIBPhotoAlbumManager.h"
 #import "YBIBSentinel.h"
 #import "YBIBUtilities.h"
+#import "YYAnimatedImageView+ATLayer.h"
 #import "YBIBImageCache+Internal.h"
 #import "YBIBImageCache.h"
 #import "YBIBImageCell+Internal.h"
@@ -46,15 +47,9 @@
 #import "YBIBSheetView.h"
 #import "YBIBToolViewHandler.h"
 #import "YBIBTopView.h"
+#import "YBIBDefaultWebImageMediator.h"
 #import "YBIBWebImageMediator.h"
 #import "YBImageBrowser.h"
-#import "YBIBVideoActionBar.h"
-#import "YBIBVideoCell+Internal.h"
-#import "YBIBVideoCell.h"
-#import "YBIBVideoData+Internal.h"
-#import "YBIBVideoData.h"
-#import "YBIBVideoTopBar.h"
-#import "YBIBVideoView.h"
 
 FOUNDATION_EXPORT double LYZMediaBrowserVersionNumber;
 FOUNDATION_EXPORT const unsigned char LYZMediaBrowserVersionString[];

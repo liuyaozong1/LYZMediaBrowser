@@ -31,10 +31,10 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'LYZMediaBrowser/Classes/YBImageBrowser/**/*.{h,m}','LYZMediaBrowser/Classes/Video/*.{h,m}'
-  
-  s.resources    = 'LYZMediaBrowser/Classes/Video/YBImageBrowserVideo.bundle','LYZMediaBrowser/Classes/YBImageBrowser/YBImageBrowser.bundle'
-  s.exclude_files = 'LYZMediaBrowser/Classes/YBImageBrowser/WebImageMediator/YBIBDefaultWebImageMediator.{h,m}'
+#  s.source_files = 'LYZMediaBrowser/Classes/YBImageBrowser/**/*.{h,m}','LYZMediaBrowser/Classes/Video/*.{h,m}'
+#
+#  s.resources    = 'LYZMediaBrowser/Classes/Video/YBImageBrowserVideo.bundle','LYZMediaBrowser/Classes/YBImageBrowser/YBImageBrowser.bundle'
+#  s.exclude_files = 'LYZMediaBrowser/Classes/YBImageBrowser/WebImageMediator/YBIBDefaultWebImageMediator.{h,m}'
   
   # s.resource_bundles = {
   #   'LYZMediaBrowser' => ['LYZMediaBrowser/Assets/*.png']
@@ -44,4 +44,31 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'YYImage'
    s.dependency 'SDWebImage', '>= 5.0.0'
+   
+   s.default_subspec = "Core"
+
+   s.subspec "Core" do |core|
+     core.source_files   = "LYZMediaBrowser/Classes/YBImageBrowser/**/*.{h,m}"
+     core.resources      = "LYZMediaBrowser/Classes/Video/YBImageBrowserVideo.bundle"
+     core.dependency 'YYImage'
+     core.dependency 'SDWebImage', '>= 5.0.0'
+   end
+   s.subspec "NOSD" do |core|
+     core.source_files   = "LYZMediaBrowser/Classes/YBImageBrowser/**/*.{h,m}"
+     core.exclude_files  = "LYZMediaBrowser/Classes/YBImageBrowser/WebImageMediator/YBIBDefaultWebImageMediator.{h,m}"
+     core.resources      = "YZMediaBrowser/Classes/YBImageBrowser/YBImageBrowser.bundle"
+     core.dependency 'YYImage'
+   end
+
+   s.subspec "Video" do |video|
+     video.source_files = "LYZMediaBrowser/Classes/Video/*.{h,m}"
+     video.resources    = "LYZMediaBrowser/Classes/Video/YBImageBrowserVideo.bundle"
+     video.dependency 'YBImageBrowser/Core'
+   end
+   s.subspec "VideoNOSD" do |video|
+     video.source_files = "LYZMediaBrowser/Classes/Video/*.{h,m}"
+     video.resources    = "LYZMediaBrowser/Classes/Video/YBImageBrowserVideo.bundle"
+     video.dependency 'YBImageBrowser/NOSD'
+   end
+   
 end
