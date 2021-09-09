@@ -1,9 +1,9 @@
 {
   "name": "LYZMediaBrowser",
-  "version": "0.1.0",
-  "summary": "A short description of LYZMediaBrowser.",
+  "version": "1.0.0",
+  "summary": "简单易用的图片浏览器",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/648731281@qq.com/LYZMediaBrowser",
+  "homepage": "https://github.com/liuyaozong1/LYZMediaBrowser",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,19 @@
     "648731281@qq.com": "648731281@qq.com"
   },
   "source": {
-    "git": "https://github.com/648731281@qq.com/LYZMediaBrowser.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/liuyaozong1/LYZMediaBrowser.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "LYZMediaBrowser/Classes/**/*"
+  "source_files": "LYZMediaBrowser/Classes/**/*",
+  "dependencies": {
+    "YYImage": [
+
+    ],
+    "SDWebImage": [
+      ">= 5.0.0"
+    ]
+  }
 }

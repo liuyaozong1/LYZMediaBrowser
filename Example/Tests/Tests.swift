@@ -1,5 +1,5 @@
 import XCTest
-import LYZMediaBrowser
+
 
 class Tests: XCTestCase {
     
