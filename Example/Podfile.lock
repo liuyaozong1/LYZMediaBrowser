@@ -1,0 +1,16 @@
+PODS:
+  - LYZMediaBrowser (0.1.0)
+
+DEPENDENCIES:
+  - LYZMediaBrowser (from `../`)
+
+EXTERNAL SOURCES:
+  LYZMediaBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYZMediaBrowser: 6362397baceb5e09cc65cf5460230a5a1a717a8b
+
+PODFILE CHECKSUM: ab6e55fdf8025dd4f8e829df4de1bcc5721941fe
+
+COCOAPODS: 1.11.0.rc.1
