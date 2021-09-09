@@ -29,7 +29,7 @@
   ],
   "exclude_files": "LYZMediaBrowser/Classes/YBImageBrowser/WebImageMediator/YBIBDefaultWebImageMediator.{h,m}",
   "dependencies": {
-    "LYZYYImage": [
+    "YYImage": [
 
     ],
     "SDWebImage": [

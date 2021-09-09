@@ -1,6 +1,0 @@
-framework module LYZYYImage {
-  umbrella header "LYZYYImage-umbrella.h"
-
-  export *
-  module * { export * }
-}

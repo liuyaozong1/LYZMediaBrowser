@@ -16,6 +16,6 @@
 #import "YYImageCoder.h"
 #import "YYSpriteSheetImage.h"
 
-FOUNDATION_EXPORT double LYZYYImageVersionNumber;
-FOUNDATION_EXPORT const unsigned char LYZYYImageVersionString[];
+FOUNDATION_EXPORT double YYImageVersionNumber;
+FOUNDATION_EXPORT const unsigned char YYImageVersionString[];
 
